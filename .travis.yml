@@ -4,8 +4,7 @@ python: "3.6"
 install:
   - git clone https://github.com/Thomas-95/TAPPY.git
   - pip install pipenv
-  - pipenv shell
   - pipenv install .
 
-script:
-  - py.test --coverage
+# script:
+#   - py.test --coverage
