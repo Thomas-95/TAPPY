@@ -4,9 +4,9 @@
 
 ###### An experimentation with the Pyramid web framework.
 
-<p align="center">
-<a href="https://travis-ci.org/"><img alt="Build Status" src="https://travis-ci.org/Thomas-95"></a>
-<a href="https://coveralls.io/github/"><img alt="Coverage Status" src="https://coveralls.io/repos/github/"></a>
+<p align="left">
+<a href="https://travis-ci.org/Thomas-95/TAPPY/"><img alt="Build Status" src="https://travis-ci.org/Thomas-95/TAPPY.svg?branch=master"></a>
+<a href='https://coveralls.io/github/Thomas-95/TAPPY?branch=master'><img src='https://coveralls.io/repos/github/Thomas-95/TAPPY/badge.svg?branch=master' alt='Coverage Status'/></a>
 <a href="https://github.com/ambv/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
