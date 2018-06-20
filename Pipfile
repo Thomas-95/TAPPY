@@ -5,9 +5,11 @@ name = "pypi"
 
 [packages]
 pyramid = "*"
-black = "*"
+black = "==18.6b2"
 waitress = "*"
 "pyramid-jinja2" = "*"
+coveralls = "*"
+pipenv = "*"
 
 [dev-packages]
 

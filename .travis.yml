@@ -2,7 +2,7 @@ language: python
 python: "3.6"
 
 env:
-  - PIPENV_VENV_IN_PROJET=1
+  # - PIPENV_VENV_IN_PROJET=1
   - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
