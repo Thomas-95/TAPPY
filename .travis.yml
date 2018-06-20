@@ -5,12 +5,8 @@ env:
   - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
-  - git clone https://github.com/Thomas-95/TAPPY.git
   - pip install pipenv
   - pipenv install
-
-before_script:
-  - export PYTHONPATH=$PYTHONPATH:/home/travis/build/Thomas-95/TAPPY
 
 script:
   - pipenv run py.test
