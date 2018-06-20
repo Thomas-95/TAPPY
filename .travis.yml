@@ -1,6 +1,10 @@
 language: python
 python: "3.6"
 
+env:
+  - PIPENV_VENV_IN_PROJET=1
+  - PIPENV_IGNORE_VIRTUALENVS=1
+
 install:
   - git clone https://github.com/Thomas-95/TAPPY.git
   - pip install pipenv
