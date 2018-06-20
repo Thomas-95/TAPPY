@@ -2,14 +2,14 @@ language: python
 python: "3.6"
 
 env:
-  # - PIPENV_VENV_IN_PROJET=1
   - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
   - git clone https://github.com/Thomas-95/TAPPY.git
   - pip install pipenv
   - pipenv install
+  - pipenv shell
 
-# script:
-#   - py.test --coverage
+script:
+  - pytest
 #   - COVERALLS_REPO_TOKEN=PBp3zqA5w5xr27OmZHas4vP71q11RYqgB coveralls
