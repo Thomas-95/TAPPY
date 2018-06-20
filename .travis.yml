@@ -9,6 +9,9 @@ install:
   - pip install pipenv
   - pipenv install
 
+before_script:
+  - export PYTHONPATH=$PYTHONPATH:/home/travis/build/Thomas-95/TAPPY
+
 script:
   - pipenv run py.test
   - pipenv run COVERALLS_REPO_TOKEN=PBp3zqA5w5xr27OmZHas4vP71q11RYqgB coveralls
